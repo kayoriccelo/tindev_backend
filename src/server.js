@@ -1,7 +1,6 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const routes = require('./routes');
-
 const server = express();
 
 mongoose.connect('mongodb+srv://omnistack:omnistack@cluster0-dnxqq.mongodb.net/omnistack8?retryWrites=true&w=majority', {
